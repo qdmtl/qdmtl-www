@@ -1,0 +1,199 @@
+/** CSS rules for qdmtl.ca */
+
+body {
+  line-height: 1.618;
+  background-color: #f9f9f9;
+  color: #4a4a4a;
+  font-size: 1.2rem;
+}
+
+/** Élimine l'arrière-plan quadrillé */
+body::before {
+  content: none;
+}
+
+/** Couleur de l'arrière plan du SNG */
+.bg-primary {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-color: #f9f9f9 !important;
+}
+
+.navbar.fixed-top {
+  border-bottom: 2px solid #ddd7bf;
+}
+
+/** Couleur des items du système de navigation globale */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: #1d7484;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus,
+a:hover {
+  color: #982c61;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  background: #f9f9f9;
+}
+.navbar-dark .navbar-brand:hover {
+  border-bottom: solid 2px transparent;
+  color: #1d7484;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+
+}
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #1d7484;
+  border-bottom: solid 2px;
+}
+
+/** Distance entre les items du SNG */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+/** Pas de précédent suivant */
+.nav.navbar-nav.ml-auto li:nth-child(2),
+.nav.navbar-nav.ml-auto li:nth-child(3) {
+  display: none;
+}
+
+/** Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+}
+
+h1 {
+  font-size: 2.85rem;
+  line-height: 1.618;
+}
+
+h2 {
+  font-size: 2.35rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.75rem; }
+
+h5 {
+  font-size: 1.5rem; }
+
+h6 {
+  font-size: 1.25rem; }
+
+hr {
+  border-color: 2px solid #1d7484; }
+
+div.col-md-9 h1:first-of-type {
+  text-align: center;
+}
+div.col-md-9 h1:first-of-type .headerlink {
+  display: none;
+}
+div.col-md-9 > p:first-of-type {
+  text-align: center;
+}
+
+/** admonition */
+.information p, .information ul {
+  margin-bottom: 0;
+  padding-left: 17%;
+}
+.information ul {
+  padding-left: 21%;
+}
+.information {
+  margin-bottom: 2.5rem;
+  border: 1px solid rgb(230, 236, 241);
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+  border-radius: 3px;
+  background-image: url("../icons8-info-384.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-origin: content-box;
+  background-size: 15.8%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: #1d7484;
+  border-bottom: 2px solid transparent;
+}
+a:hover {
+  color: #982c61;
+  border-bottom: 2px solid #4a4a4a;
+  text-decoration: none;
+}
+a:visited {
+  color: #1d7484;
+}
+a:visited:hover {
+  color: #982c61;
+}
+a:active {
+  color: #f9f9f9;
+  background-color: #1d7484;
+}
+a:active:visited {
+  color: #f9f9f9;
+}
+
+.headerlink {
+  font-size: 75%;
+}
+h1:hover .headerlink,
+h2:hover .headerlink,
+h3:hover .headerlink,
+h4:hover .headerlink,
+h5:hover .headerlink,
+h6:hover .headerlink {
+  display: inline-block;
+  border-bottom: none;
+}
+h1:hover .headerlink,
+h2:hover .headerlink,
+h3:hover .headerlink,
+h4:hover .headerlink,
+h5:hover .headerlink,
+h6:hover .headerlink {
+  display: inline-block;
+  border-bottom: none;
+}
+
+/** Homepage */
+/*
+body.homepage > div.container > div.row > div.col-md-3 {
+  display: none;
+}
+body.homepage>div.container>div.row>div.col-md-9 {
+    margin-left: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+*/
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #f1ebd3;
+  border: solid 2px #ddd7bf;
+  border-radius: 0.3rem;
+}
+
+.card {
+  border: 2px solid #ddd7bf;
+}

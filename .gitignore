@@ -1,0 +1,9 @@
+# répertoires
+.venv/
+site/
+
+# fichiers
+CONTRIBUTING.md
+pip.log
+requirements.txt
+docs/plan.md
