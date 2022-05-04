@@ -6,6 +6,8 @@ site_author: David Valentine
 repo_url: https://github.com/qdmtl/qdmtl-www/
 edit_uri: ./edit/main/docs/
 
+site_dir: ../site
+
 nav:
   - Accueil: index.md
   - SPARQL: "info-sparql.md"
