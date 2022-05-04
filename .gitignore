@@ -3,7 +3,9 @@
 site/
 
 # fichiers
-CONTRIBUTING.md
+.htaccess
+/CONTRIBUTING.md
 pip.log
-requirements.txt
-docs/plan.md
+/post-receive
+/requirements.txt
+/docs/plan.md
