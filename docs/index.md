@@ -35,9 +35,9 @@ Le développement de l’ontologie s’appuie sur la méthodologie SAMOD : *Simp
 
 Le modèle développé utilise des ontologies et des vocabulaires décrivant des champs de connaissances pertinents :
 
-- Records in Contexts Ontology, développée par le Conseil International des Archives (ICA RiC-O)
-- Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC
-- Art and Architecture Thesaurus du Getty Museum
+- Records in Contexts Ontology, développée par le Conseil International des Archives (ICA&#160;RiC&#8209;O);
+- Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC;
+- Art and Architecture Thesaurus du Getty Museum.
 
 <!--
 
