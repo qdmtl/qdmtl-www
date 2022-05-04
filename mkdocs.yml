@@ -3,9 +3,8 @@ site_url: https://qdmtl.ca
 site_description: Données ouvertes et liées pour les quartiers disparus de Montréal
 site_author: David Valentine
 
-repo_name: qdmtl/qdmtl-www
-repo_url: https://github.com/qdmtl/qdmtl-www
-edit_uri: ./edit/main
+repo_url: https://github.com/qdmtl/qdmtl-www/
+edit_uri: ./edit/main/docs/
 
 nav:
   - Accueil: index.md
