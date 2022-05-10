@@ -1,32 +1,47 @@
 # QDMTL
 
 Données ouvertes et liées pour les quartiers disparus de Montréal<br/>
-`#qdmtl`
+`#qdmtl` `#lod` `#semweb`
 
 ---
 
 Le projet `#qdmtl` propose une modélisation sémantique sur laquelle repose une démonstration de faisabilité pour la publication et la manipulation de données structurées sur les quartiers disparus de Montréal.
 
-À partir de sources archivistiques, il s’agit de décrire ce patrimoine : des infrastructures résidentielles, commerciales, industrielles et institutionnelles rasées pour faire place aux chantiers qui ont façonné la ville telle qu’on la connaît aujourd’hui.
+La modélisation s’appuie sur deux axes descriptifs alimentés par des sources archivistiques :
 
----
+1. une description des objets du patrimoine disparu : des infrastructures résidentielles, commerciales, industrielles et institutionnelles rasées pour faire place aux chantiers qui ont façonné la ville telle qu’on la connaît aujourd’hui;
+2. une description des documents d’archives qui témoignent du patrimoine en question : des photographies, des plans et des documents administratifs.
+
+À terme, la première phase du projet permettra de présenter les éléments de consultation suivants :
+
+- un point d’accès SPARQL;
+- un jeu de données sérialisé;
+- des fiches d’informations dans le format HTML.
 
 ## Accès aux données
 
 !!! note "Prépublication"
-    Les données sont actuellement exposées sous la forme d’une prépublication. La structure et le contenu du jeu de données pourraient être substantiellement modifiés dans les prochaines semaines.
+    **2022-05-01** — Les données sont actuellement exposées sous la forme d’une prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
 
-| Type d'accès | Échéance |
+QDMTL dispose d'un **point d’accès SPARQL** disponible à l’adresse suivante :
+
+- [http://qdmtl.ca/sparql](http://qdmtl.ca/sparql).
+
+Pour en savoir plus, cliquez sur le bouton ci-dessous :
+
+<a class="btn btn-primary btn-lg btn-block" href="info-sparql/" role="button">Informations sur le point d’accès SPARQL</a>
+
+### Échéancier
+
+| Type d’accès | Échéance |
 |---|---|
 | Point d’accès SPARQL | Semaine du 2 mai 2022 |
 | Sérialisations | Semaine du 2 mai 2022 |
 | URI déréférençables<br/>Fiches d’informations | Semaine du 9 mai 2022 |
 
----
-
 ## Méthodologie
 
-Le développement de l’ontologie s’appuie sur la méthodologie SAMOD : *Simplified Agile Methodology for Ontology Development* (Peroni 2016). Il s’agit d’un protocole de développement basé sur de courts cycles itératifs qui placent les données au centre du processus d’élaboration de l’ontologie. Cette méthodologie permet la production du jeu de données parallèlement au développement de l’ontologie. Pour chaque itération, le protocole prévoit une portion de modélisation s’appuyant sur quatre éléments :
+Le développement du modèle s’appuie sur la méthodologie SAMOD : *Simplified Agile Methodology for Ontology Development* (Peroni 2016). Il s’agit d’un protocole de développement basé sur de courts cycles itératifs qui placent les données au centre du processus d’élaboration de l’ontologie. Cette méthodologie permet la production du jeu de données parallèlement au développement de l’ontologie. Pour chaque itération, le protocole prévoit une portion de modélisation s’appuyant sur quatre éléments :
 
 1. un scénario énonçant les termes de la réalité à décrire;
 1. une formalisation du modèle correspondant au scénario (dans le format OWL 2);
@@ -39,11 +54,9 @@ Le modèle développé utilise des ontologies et des vocabulaires décrivant des
 - Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC;
 - Art and Architecture Thesaurus du Getty Museum.
 
----
-
 ## Communication
 
-Valentine, David et Dominic Forest. 2022. « Décrire les quartiers disparus de Montréal : modélisation et implémentation d’un réseau de données ouvertes ». Colloque Humanistica 2022. Association francophone des humanités numériques. Montréal (communication par affiche).
+Valentine, David et Dominic Forest. 2022. « Décrire les quartiers disparus de Montréal : modélisation et implémentation d’un réseau de données ouvertes ». Colloque Humanistica 2022. Association francophone des humanités numériques. Montréal (communication par affiche).
 <!--
 ---
 
@@ -54,7 +67,6 @@ Valentine, David et Dominic Forest. 2022. « Décrire les quartiers disparus de
 - Sources de la documentation
 - Bibliographie
 -->
----
 
 ## Contact
 
