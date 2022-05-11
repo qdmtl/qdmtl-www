@@ -13,7 +13,7 @@ Le projet `#qdmtl` propose une modélisation sémantique sur laquelle repose une
 La modélisation s’appuie sur deux axes descriptifs alimentés par des sources archivistiques :
 
 1. une description des objets du patrimoine disparu : des infrastructures résidentielles, commerciales, industrielles et institutionnelles rasées pour faire place aux chantiers qui ont façonné la ville telle qu’on la connaît aujourd’hui;
-2. une description des documents d’archives qui témoignent du patrimoine en question : des photographies, des plans et des documents administratifs.
+2. une description des documents d’archives qui témoignent du patrimoine en question : des photographies, des plans et des documents administratifs.
 
 À terme, la première phase du projet permettra de présenter les éléments de consultation suivants :
 
@@ -23,14 +23,14 @@ La modélisation s’appuie sur deux axes descriptifs alimentés par des sources
 
 ## Accès aux données
 
-!!! note "Prépublication"
+!!! note "Phase de prépublication"
     **2022-05-01** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
 
-QDMTL dispose d'un **point d’accès SPARQL** disponible à l’adresse suivante :
+QDMTL dispose d’un **point d’accès SPARQL** disponible à l’adresse suivante :
 
 - [http://qdmtl.ca/sparql](http://qdmtl.ca/sparql).
 
-Pour en savoir plus, cliquez sur le bouton ci-dessous :
+Pour en savoir plus, cliquez sur le bouton ci-dessous :
 
 <a class="btn btn-primary btn-lg btn-block" href="info-sparql/" role="button">Informations sur le point d’accès SPARQL</a>
 
@@ -56,6 +56,12 @@ Le modèle développé utilise des ontologies et des vocabulaires décrivant des
 - Records in Contexts Ontology, développée par le Conseil International des Archives (ICA&#160;RiC&#8209;O);
 - Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC;
 - Art and Architecture Thesaurus du Getty Museum.
+
+## Échantillon de données
+
+L’échantillon de données produit dans le cadre de ce projet est principalement lié au secteur du Faubourg à m’lasse, dont une large superficie fut détruite en 1963 pour faire place à la construction de la maison de Radio-Canada.
+
+Dans une moindre mesure, certaines informations concernant d’autres secteurs seront rendues disponibles afin d’esquisser le contexte plus large des quartiers disparus à Montréal.
 
 ## Communication
 
