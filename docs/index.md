@@ -1,3 +1,6 @@
+---
+title: Accueil
+...
 # QDMTL
 
 Données ouvertes et liées pour les quartiers disparus de Montréal<br/>
@@ -21,7 +24,7 @@ La modélisation s’appuie sur deux axes descriptifs alimentés par des sources
 ## Accès aux données
 
 !!! note "Prépublication"
-    **2022-05-01** — Les données sont actuellement exposées sous la forme d’une prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
+    **2022-05-01** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
 
 QDMTL dispose d'un **point d’accès SPARQL** disponible à l’adresse suivante :
 

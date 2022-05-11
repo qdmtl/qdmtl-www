@@ -4,7 +4,7 @@ body {
   line-height: 1.618;
   background-color: #f9f9f9;
   color: #4a4a4a;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 
 /** Élimine l'arrière-plan quadrillé */
@@ -155,7 +155,8 @@ h6:hover a.headerlink:active {
   background-color: initial;
 }
 
-p {
+p,
+.col-md-9 li {
   line-height: 1.4;
 }
 

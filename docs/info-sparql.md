@@ -1,3 +1,6 @@
+---
+title: SPARQL
+...
 # SPARQL
 
 Informations sur le point d’accès SPARQL du projet QDMTL

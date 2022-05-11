@@ -9,9 +9,8 @@ edit_uri: ./edit/main/docs/
 site_dir: ../site
 
 nav:
-  - Accueil: index.md
-  - SPARQL: "info-sparql.md"
-#  - Contribuer: "#"
+  - index.md
+  - info-sparql.md
 
 theme:
   name: mkdocs
@@ -25,6 +24,7 @@ plugins:
       lang: fr
 
 markdown_extensions:
+    - meta
     - toc:
         permalink: ''
     - admonition
