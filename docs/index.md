@@ -24,7 +24,7 @@ La modélisation s’appuie sur deux axes descriptifs alimentés par des sources
 ## Accès aux données
 
 !!! note "Phase de prépublication"
-    **2022-05-01** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
+    **2022-05-18** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
 
 QDMTL dispose d’un **point d’accès SPARQL** disponible à l’adresse suivante :
 
@@ -36,11 +36,12 @@ Pour en savoir plus, cliquez sur le bouton ci-dessous :
 
 ### Échéancier
 
-| Type d’accès | Échéance |
-|---|---|
-| Point d’accès SPARQL | Semaine du 2 mai 2022 |
-| Sérialisations | Semaine du 2 mai 2022 |
-| URI déréférençables<br/>Fiches d’informations | Semaine du 9 mai 2022 |
+| Type d’accès | Échéance | Statut |
+| --- | --- | --- |
+| Point d’accès SPARQL | Semaine du 2 mai 2022 | Opérationnel |
+| Sérialisations | Semaine du 2 mai 2022 | RDF/XML avec les clauses SPARQL `CONSTRUCT` et `DESCRIBE`<br/>RDF/XML avec le graphe `http://data.qdmtl.ca`
+| URI déréférençables | Semaine du 9 mai 2022 | Entités de [http://data.qdmtl.ca/](http://data.qdmtl.ca/) (exemple : [http://data.qdmtl.ca/Batiment/1065-1105-Maisonneuve](http://data.qdmtl.ca/Batiment/1065-1105-Maisonneuve), RDF/XML) |
+| Interfaces Web | Juin 2022 | En développement |
 
 ## Méthodologie
 
