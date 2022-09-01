@@ -79,6 +79,7 @@ Pour chaque bâtiment, effectuer les étapes suivantes :
 1. Cliquer sur le bouton `Stage Changes` (icône +) pour le fichier `buildings.json`. 
 1. Décrire les chagement de la champ `Message`.
 1. Cliquer sur le bouton `Commit`.
+1. Synchroniser avec la branche distante.
 
 ## Ressources
 
