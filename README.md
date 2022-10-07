@@ -6,13 +6,18 @@
 
 ## Sources
 
-Ce dépôt contient les sources du site Web du projet QDMTL.
+Ce dépôt contient les sources du site web du projet QDMTL.
 
 [https://qdmtl.ca](https://qdmtl.ca)
 
 ## Déploiement
 
 Push sur `main`.
+
+## Branches
+
+- `edit` : édition/développement
+- `main` : live
 
 ## Informations
 
