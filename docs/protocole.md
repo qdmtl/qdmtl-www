@@ -45,36 +45,25 @@ Le système local est prêt.
 
 *Préparation de l’interface `geojson.io` et chargement des données*.
 
-1. Accéder à [https://geojson.io](https://geojson.io).
-1. Ouvrir la console du navigateur Web.
-1. Coller dans la console le code suivant, puis appuyer sur `Enter` :
+**Utiliser Chrome.**
 
-        window.api.map.addLayer(
-          L.imageOverlay(
-            "https://ntnlv.ca/faubourg/map/img/plan-fond-transparent-min.png", [
-              [45.5155088875666, -73.55432183482827],
-              [45.52127103906887, -73.54793549518355]
-            ], {
-              opacity: 0.5,
-              alt: "Plan d’expropriation du Faubourg à M’lasse"
-            }
-          )
-        ).setView([45.51823567357893, -73.55085910368373], 18)
-
-1. Charger les données dans geojson.io : `Open > file`, puis sélectionner `buildings.json` (ce fichier se trouve à la racine du dossier de l’application).
+1. Démarrer l'application `geojson.io` en suivant le lien suivant : [http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fmap%2Fbuildings.json&map=16/45.518314/-73.550455](http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fmap%2Fbuildings.json&map=16/45.518314/-73.550455).
+1. Dans le menu de l'application `geojson.io` (coin supérieur gauche), aller à `Meta > Add raster tile layer`.
+1. Dans la boite de dialogue, copier-coller l'URL suivante et appuyer sur `OK` : `https://ntnlv.ca/faubourg/tiles/{z}/{x}/{y}.png`
+1. Dans la boite de dialogue qui s'ouvre ensuite, entrer le nom de la couche de tuiles souhaité et appuyer sur `OK` (peut être n'importe quelle chaîne de caractères).
 
 ### Extraction des coordonnées
 
 Pour chaque bâtiment, effectuer les étapes suivantes :
 
-1. Sélectionner l’outil « Draw a marker ».
-1. Placer le point à l’emplacement voulu sur la carte (**note** : le dernier point ajouté se retrouve systématiquement au bas de la liste.
+1. Sélectionner l’outil « Draw Point ».
+1. Placer le point à l’emplacement voulu sur la carte (**note** : le dernier point ajouté se retrouve systématiquement au bas de la liste dans la sérialisation GeoJSON.
 1. Dans l’éditeur à droite, sélectionner l’onglet « Table » et saisir les données dans les champs appropriés du tableau.
 
 ## Sauvegarde
 
 1. Par mesure de précaution, synchroniser la branche `dev` avec la branche distante.
-1. Dans `geojson.io`, `Save > geoJSON`, puis écraser l’actuel fichier `building.json` (**note** : s’assurer d’utiliser la bonne extension, `.json`).
+1. Dans `geojson.io`, `Save > GeoJSON`, puis écraser l’actuel fichier `building.json` (**note** : s’assurer d’utiliser la bonne extension, `.json`).
 1. Dans VS Code, ouvrir l’onglet `Source Control`, à gauche.
 1. Cliquer sur le bouton `Stage Changes` (icône +) pour le fichier `buildings.json`. 
 1. Décrire les chagement de la champ `Message`.
