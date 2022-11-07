@@ -47,7 +47,7 @@ Le système local est prêt.
 
 **Utiliser Chrome.**
 
-1. Démarrer l'application `geojson.io` en suivant le lien suivant : [http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fmap%2Fbuildings.json&map=16/45.518314/-73.550455](http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fmap%2Fbuildings.json&map=16/45.518314/-73.550455).
+1. Démarrer l'application `geojson.io` en suivant le lien suivant : [http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fbuildings.json&map=16/45.518314/-73.550455](http://geojson.io/#data=data:text/x-url,https%3A%2F%2Fntnlv.ca%2Ffaubourg%2Fbuildings.json&map=16/45.518314/-73.550455).
 1. Dans le menu de l'application `geojson.io` (coin supérieur gauche), aller à `Meta > Add raster tile layer`.
 1. Dans la boite de dialogue, copier-coller l'URL suivante et appuyer sur `OK` : `https://ntnlv.ca/faubourg/tiles/{z}/{x}/{y}.png`
 1. Dans la boite de dialogue qui s'ouvre ensuite, entrer le nom de la couche de tuiles souhaité et appuyer sur `OK` (peut être n'importe quelle chaîne de caractères).
