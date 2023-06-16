@@ -12,19 +12,19 @@ Le projet `#qdmtl` propose une modélisation sémantique sur laquelle repose une
 
 La modélisation s’appuie sur deux axes descriptifs alimentés par des sources archivistiques :
 
-1. une description des objets du patrimoine disparu : des infrastructures résidentielles, commerciales, industrielles et institutionnelles rasées pour faire place aux chantiers qui ont façonné la ville telle qu’on la connaît aujourd’hui;
-2. une description des documents d’archives qui témoignent du patrimoine en question : des photographies, des plans et des documents administratifs.
+1. une description des objets du patrimoine disparu : des infrastructures résidentielles, commerciales, industrielles et institutionnelles rasées pour faire place aux chantiers qui ont façonné la ville telle qu’on la connaît aujourd’hui
+2. une description des documents d’archives qui témoignent du patrimoine en question : des photographies, des plans et des documents administratifs
 
 À terme, la première phase du projet permettra de présenter les éléments de consultation suivants :
 
-- un point d’accès SPARQL;
-- un jeu de données sérialisé;
-- des fiches d’informations dans le format HTML.
+- un point d’accès SPARQL
+- un jeu de données
+- des fiches d’informations dans le format HTML
 
 ## Accès aux données
 
 !!! note "Phase de prépublication"
-    **2022-05-18** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
+    **2022-06-01** — Les données sont actuellement exposées en tant que prépublication. À court terme, la structure et le contenu du jeu de données pourraient être substantiellement modifiés.
 
 QDMTL dispose d’un **point d’accès SPARQL** disponible à l’adresse suivante :
 
@@ -41,22 +41,22 @@ Pour en savoir plus, cliquez sur le bouton ci-dessous :
 | Point d’accès SPARQL | Semaine du 2 mai 2022 | Opérationnel |
 | Sérialisations | Semaine du 2 mai 2022 | RDF/XML avec les clauses SPARQL `CONSTRUCT` et `DESCRIBE`<br/>RDF/XML avec le graphe `http://data.qdmtl.ca`
 | URI déréférençables | Semaine du 9 mai 2022 | Entités de [http://data.qdmtl.ca/](http://data.qdmtl.ca/) (exemple : [http://data.qdmtl.ca/Batiment/1065-1105-Maisonneuve](http://data.qdmtl.ca/Batiment/1065-1105-Maisonneuve), RDF/XML) |
-| Interfaces Web | Juin 2022 | En développement |
+| Plan interactif du Faubourg à m’lasse (prototype d’application cartographique) | Juillet 2023 | En développement |
 
 ## Méthodologie
 
-Le développement du modèle s’appuie sur la méthodologie SAMOD : *Simplified Agile Methodology for Ontology Development* (Peroni 2016). Il s’agit d’un protocole de développement basé sur de courts cycles itératifs qui placent les données au centre du processus d’élaboration de l’ontologie. Cette méthodologie permet la production du jeu de données parallèlement au développement de l’ontologie. Pour chaque itération, le protocole prévoit une portion de modélisation s’appuyant sur quatre éléments :
+Le développement du modèle s’appuie sur la méthodologie SAMOD : *Simplified Agile Methodology for Ontology Development* (Peroni 2016). Il s’agit d’un protocole de développement basé sur de courts cycles itératifs qui placent les données au centre du processus d’élaboration de l’ontologie. Cette méthodologie permet la production du jeu de données parallèlement au développement de l’ontologie. Pour chaque itération, le protocole prévoit les éléments qui suivent :
 
-1. un scénario énonçant les termes de la réalité à décrire;
-1. une formalisation du modèle correspondant au scénario (dans le format OWL 2);
-1. un échantillon de données permettant de répondre aux questions du scénario;
-1. des requêtes permettant de formaliser les questions.
+1. un scénario énonçant les termes de la réalité à décrire
+1. une formalisation du modèle correspondant au scénario (formatOWL)
+1. un échantillon de données permettant de répondre aux questions du scénario
+1. des requêtes permettant de formaliser les questions et procéder aux tests d’utilisation
 
 Le modèle développé utilise des ontologies et des vocabulaires décrivant des champs de connaissances pertinents :
 
-- Records in Contexts Ontology, développée par le Conseil International des Archives (ICA&#160;RiC&#8209;O);
-- Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC;
-- Art and Architecture Thesaurus du Getty Museum.
+- Records in Contexts Ontology, développée par le Conseil International des Archives (ICA&#160;RiC&#8209;O)
+- Erlangen CRM / OWL, une implémentation du modèle conceptuel de référence du CIDOC
+- Art and Architecture Thesaurus du Getty Museum
 
 ## Échantillon de données
 
@@ -64,9 +64,14 @@ L’échantillon de données produit dans le cadre de ce projet est principaleme
 
 Dans une moindre mesure, certaines informations concernant d’autres secteurs seront rendues disponibles afin d’esquisser le contexte plus large des quartiers disparus à Montréal.
 
-## Communication
+## Publication
 
-Valentine, David et Dominic Forest. 2022. « Décrire les quartiers disparus de Montréal : modélisation et implémentation d’un réseau de données ouvertes ». Colloque Humanistica 2022. Association francophone des humanités numériques. Montréal (communication par affiche).
+- Valentine, David et Dominic Forest. 2023. « Le projet QDMTL : modéliser les quartiers disparus de Montréal avec des données ouvertes et liées », *Humanités numériques* [En ligne], mis en ligne le 9 juin 2023, consulté le 16 juin 2023. URL : [http://journals.openedition.org/revuehn/3336](http://journals.openedition.org/revuehn/3336)
+
+## Communications
+
+- Valentine, David. 2023. « Défragmenter la mémoire montréalaise. La reconstitution sémantique des liaisons documentaires du Faubourg à m’lasse ». Premier Colloque étudiant du CRIHN. Centre de recherche interuniversitaire sur les humanités numériques. Montréal (communication orale).
+- Valentine, David et Dominic Forest. 2022. « Décrire les quartiers disparus de Montréal : modélisation et implémentation d’un réseau de données ouvertes ». Colloque Humanistica 2022. Association francophone des humanités numériques. Montréal (communication par affiche).
 <!--
 ---
 
