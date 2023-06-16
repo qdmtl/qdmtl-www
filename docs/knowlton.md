@@ -7,6 +7,8 @@ Objectifs et notes
 
 ---
 
+**Ce doument est obsolète.** Voir [https://demo.hedgedoc.org/jJO7rINnRfSvQzQEW9sKnA?both](https://demo.hedgedoc.org/jJO7rINnRfSvQzQEW9sKnA?both)
+
 Certains de ces objectifs ne pourront être atteints qu'au bout de plusieurs retraites. Il nous revient de segmenter pour réaliser des avancements concrets durant la fin de semaine.
 
 ## Design du démo
@@ -87,6 +89,7 @@ S'aligner avec les outils du projet (qui utilise quoi dans quelles circonstances
 - Drive, nettoyage?
 - **Demo Yannic local, tuiles lentes**
 - Voir pour Carto narrative
+- Prise de notes collectives : https://demo.hedgedoc.org/
 
 ## Feuille de route QDMTL
 
